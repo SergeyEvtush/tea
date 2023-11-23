@@ -11,7 +11,7 @@
 		
 	 }
 	 .header__inner {
-		min-height: 105px;
+		min-height: auto;
 	 }
 	 .blockquote__text{
 		margin-top: 120px;
@@ -26,7 +26,23 @@
 	 .burger{
 		display: block;
 	 }
+	 .menu{
+		order: -1;
+		margin-right: 0;
+	 }
+	 .logo {
+		margin-left: auto;
+		margin-right: auto;
+	 }
 }
-@media(max-width:768px){}
+@media(max-width:768px){
+	.header__inner{
+		padding-left: 64px;
+		padding-right: 64px;
+	}
+	.logo {
+		margin-right: 154px;
+	 }
+}
 @media(max-width:480px){}
 @media(max-width:360px){}

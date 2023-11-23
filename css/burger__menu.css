@@ -1,0 +1,17 @@
+.burger{
+	display: none;
+}
+.menu__btn{
+	width: 40px;
+	height: 18px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: none;
+	background-color: #fff;
+}
+.menu__btn span{
+	background-color: #000;
+	height: 2px;
+	width: 100%;
+}
