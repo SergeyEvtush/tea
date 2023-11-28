@@ -9,29 +9,17 @@
   align-items: center;
   padding: 30px 0px;
 }
-.logo {
-	display: block;
-	position: relative;
-	height: 80px;
-  	margin-bottom: 35px;
-}
-.logo img{
-	margin: 0 auto;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
 
-.menu {
+.header__logo{
+	margin-bottom: 35px;
 }
 
 .menu__list {
   display: flex;
   align-items: center;
   gap: 0 65px;
-  font-weight: 400;
-  font-size: 18px;
   margin-left: 85px;
+  height: 27px;
 }
 
 .user-actions {
@@ -52,12 +40,4 @@
 .user-actions__item-search {
   margin-left: 80px;
 }
-.user-actions__link {
-	display: block;
-	position: relative;
-}
-.user-actions__link img{
-	position: absolute;
-	top: 0;
-	left: 0;
-}
+
