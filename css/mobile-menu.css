@@ -4,13 +4,15 @@
 .mobile-actions {
   display: none;
 }
-.background-shadow {
+/* .background-shadow {
   display: none;
-}
+} */
 
 @media (max-width: 860px) {
-  .background-shadow.active {
+  .background-shadow {
     display: block;
+    opacity: 0;
+    visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -18,6 +20,12 @@
     bottom: 0;
     height: 100wv;
     background: #0000006b;
+    transition: all 0.5s ease 0.5s;
+  }
+  .background-shadow.active {
+    visibility: visible;
+    opacity: 100%;
+    transition: opacity 0.5s ease 0.5s;
   }
   .mobile-menu {
     display: block;
