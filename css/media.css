@@ -17,23 +17,19 @@
   }
 }
 @media (max-width: 860px) {
-  .container {
-    position: relative;
-  }
   .menu__list {
     display: none;
   }
+
   .menu__list.active {
-    display: none;
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    left: calc(50% - 360px / 2);
+    text-align: center;
     width: 360px;
     margin: 0 auto;
     background-color: #fff;
     display: block;
-    text-align: center;
     padding-top: 60px;
     min-height: 691px;
     z-index: 5;
