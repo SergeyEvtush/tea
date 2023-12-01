@@ -1,5 +1,6 @@
 .burger{
 	display: none;
+
 }
 .menu__btn{
 	width: 40px;
@@ -9,9 +10,13 @@
 	justify-content: space-between;
 	border: none;
 	background-color: #fff;
+	cursor: pointer;
 }
 .menu__btn span{
 	background-color: #000;
 	height: 2px;
 	width: 100%;
+}
+.menu__btn.active span{
+	display: none;
 }
