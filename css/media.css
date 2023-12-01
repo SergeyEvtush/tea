@@ -18,21 +18,24 @@
 }
 @media (max-width: 860px) {
   .menu__list {
-    display: none;
-  }
-
-  .menu__list.active {
+    /* display: none; */
+    display: block;
     position: absolute;
-    top: 0;
+    top: -200%;
+    transition: all 0.5s ease 0.5s;
     left: calc(50% - 360px / 2);
     text-align: center;
     width: 360px;
     margin: 0 auto;
     background-color: #fff;
-    display: block;
     padding-top: 60px;
     min-height: 691px;
     z-index: 5;
+  }
+
+  .menu__list.active {
+    transition: all 0.5s ease 0.5s;
+    top: 0;
   }
   .burger {
     display: block;
