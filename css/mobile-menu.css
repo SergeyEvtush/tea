@@ -4,9 +4,6 @@
 .mobile-actions {
   display: none;
 }
-/* .background-shadow {
-  display: none;
-} */
 
 @media (max-width: 860px) {
   .background-shadow {

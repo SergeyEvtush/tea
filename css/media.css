@@ -15,6 +15,12 @@
     margin-top: 120px;
     margin-bottom: 135px;
   }
+  .assortment__list {
+    gap: 0;
+  }
+  .assortment {
+    margin-bottom: 120px;
+  }
 }
 @media (max-width: 860px) {
   .menu__list {
@@ -39,7 +45,6 @@
   }
   .burger {
     display: block;
-	 
   }
   .menu {
     order: -1;
@@ -76,6 +81,10 @@
 
   .blockquote__text {
     max-width: 640px;
+  }
+  .assortment__list {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 @media (max-width: 680px) {
@@ -131,5 +140,8 @@
   }
   .user-actions {
     min-width: 100px;
+  }
+  .assortment__img {
+    max-width: 170px;
   }
 }
