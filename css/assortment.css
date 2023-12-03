@@ -1,7 +1,14 @@
 .assortment {
   margin-bottom: 150px;
 }
-.container {
+.assortment__title {
+  text-align: center;
+  font-family: Cormorant;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 60px;
 }
 .assortment__list {
   text-align: center;

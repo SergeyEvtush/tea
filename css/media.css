@@ -21,6 +21,9 @@
   .assortment {
     margin-bottom: 120px;
   }
+  .assortment__title {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 860px) {
   .menu__list {
@@ -117,6 +120,9 @@
     height: 22px;
     width: 18px;
   }
+  .assortment {
+    margin-bottom: 60px;
+  }
 }
 @media (max-width: 360px) {
   .user-actions__item-search {
@@ -140,6 +146,13 @@
   }
   .user-actions {
     min-width: 100px;
+  }
+  .assortment {
+    margin-bottom: 80px;
+  }
+  .assortment__title {
+    font-size: 24px;
+    margin-bottom: 0px;
   }
   .assortment__img {
     max-width: 170px;
