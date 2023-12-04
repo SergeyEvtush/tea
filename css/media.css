@@ -149,8 +149,10 @@
   .assortment {
     margin-bottom: 80px;
   }
+  .title-block{
+	font-size: 24px;
+}
   .assortment__title {
-    font-size: 24px;
     margin-bottom: 0px;
   }
   .assortment__img {

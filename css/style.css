@@ -28,3 +28,11 @@ body {
   /* font-family: "Cormorant", serif; */
   font-family: "Open Sans", sans-serif;
 }
+.title-block{
+	text-align: center;
+	font-family: Cormorant;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
