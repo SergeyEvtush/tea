@@ -1,0 +1,32 @@
+.assortment {
+  margin-bottom: 150px;
+}
+.assortment__title {
+  text-align: center;
+  font-family: Cormorant;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+.assortment__list {
+  text-align: center;
+  display: flex;
+  gap: 0 40px;
+}
+.assortment__item {
+}
+.assortment__img {
+  max-width: 208px;
+  max-height: 208px;
+  width: 100%;
+}
+.assortment__name {
+  padding-top: 10px;
+  font-family: Cormorant;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
