@@ -1,0 +1,38 @@
+.reviews {
+	margin-bottom: 150px;
+}
+.container {
+}
+.reviews__title {
+	margin-bottom: 60px;
+	text-align: center;
+	font-family: Cormorant;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.reviews__list {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0 26px;
+	padding-bottom:60px;
+}
+.reviews__item {
+	width: 280px;
+}
+.user__rewiev {
+	font-family: Open Sans;
+font-size: 16px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
+}
+.user-name {
+	font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
