@@ -7,14 +7,12 @@
 	margin-bottom: 60px;
 }
 .reviews__list {
-	display:flex;
-	align-items: center;
-	justify-content: center;
-	gap: 0 26px;
-	padding-bottom:60px;
+	display: grid;
+	gap: 26px;
+	grid-template-columns: repeat(4,1fr);
 }
 .reviews__item {
-	width: 280px;
+	max-width: 280px;
 }
 .user__rewiev {
 	font-family: Open Sans;
