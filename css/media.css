@@ -24,6 +24,10 @@
   .assortment__title {
     margin-bottom: 30px;
   }
+  .reviews {
+	margin-bottom: 120px;
+}
+
   .reviews__list {
 	grid-template-columns: repeat(3,1fr);
 }
@@ -114,7 +118,9 @@
 .reviews__item:last-child{
 	display: block;
 }
-
+.blog {
+	margin-bottom: 180px;
+}
 }
 @media (max-width: 680px) {
   .container {
@@ -162,9 +168,15 @@
   .assortment {
     margin-bottom: 60px;
   }
+  .reviews {
+	margin-bottom: 60px;
+}
   .reviews__list {
 	gap: 20px;
 } 
+.blog {
+	margin-bottom: 110px;
+}
 }
 @media (max-width: 360px) {
   .user-actions__item-search {
@@ -206,6 +218,12 @@
 }
   .reviews__item:last-child,.reviews__item:nth-child(2){
 	display: none;
+}
+.blog {
+	margin-bottom: 100px;
+}
+.blog__posts {
+	margin-bottom: 30px;
 }
 .post {
 flex-direction: column;
