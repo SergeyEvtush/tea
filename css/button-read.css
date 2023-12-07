@@ -1,0 +1,26 @@
+
+.btn-read {
+	font-family: Open Sans;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+align-self: end;
+}
+
+.btn-read__link {
+display: block;
+position: relative;
+width: 43px;
+}
+.btn-read__link::after {
+content: "";
+position: absolute;
+right: 0;
+top: 5px;
+width: 8px;
+height: 8px;
+transform: rotate(45deg);
+border-top: 2px solid #000;
+border-right: 2px solid #000;
+}

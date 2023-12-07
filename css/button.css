@@ -1,0 +1,17 @@
+.button-block {
+	color:  #151618;
+	font-family: Open Sans;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	
+}
+
+.view-btn {
+	text-align: center;
+	padding: 12px 41px;
+	border: 1px solid  #151618;
+	background:  #FFF;
+	cursor: pointer;
+}

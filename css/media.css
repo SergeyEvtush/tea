@@ -81,6 +81,16 @@
   .mobile-menu__item:last-child {
     margin-bottom: 60px;
   }
+  .blog__posts {
+	grid-template-columns: repeat(1,1fr);
+	grid-template-rows: repeat(4,1fr);
+	gap: 30px;
+	margin-bottom: 72px;
+	padding: 0px 44px 0px 44px;
+}
+.blog__posts-item:nth-child(even) {
+	justify-self: end;
+}
 }
 @media (max-width: 768px) {
   .header__inner {
@@ -124,7 +134,19 @@
     margin-top: 60px;
     margin-bottom: 60px;
   }
-
+  .blog__posts {
+	padding: 0px;
+}
+  .blog__posts-item:nth-child(even) {
+	justify-self: center;
+}
+.blog__posts-item {
+	justify-self: center;
+}
+.post__image {
+	max-width: 230px;
+	min-height: 153px;
+}
 }
 @media (max-width: 480px) {
   .logo {
@@ -185,5 +207,11 @@
   .reviews__item:last-child,.reviews__item:nth-child(2){
 	display: none;
 }
-
+.post {
+flex-direction: column;
+}
+.post__image {
+	max-width: 100%;
+	min-height: 170px;
+}
 }
