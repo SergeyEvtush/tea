@@ -233,43 +233,7 @@ flex-direction: column;
 	min-height: 170px;
 }
 }
-@media(min-width:360px){
-	.know-more__wrapper {
-		background:  #F7F2EA;
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
-	.know-more__title {
-		margin-bottom: 30px;
-	}
-	.content-text {
-	text-align: center;
-	font-size: 13px;
-	}
-	.content-text__text {
-		margin-bottom: 30px;
-	}
-	.sending-block {
-		display:flex;
-		justify-content: space-between;
-	}
-	.mail-form__send{
-		margin-bottom: 12px;
-	}
-	.verification-block {
-		display:flex;
-		align-items: flex-start;
-	}
-	.verification-block__input {
-		margin-right: 10px;
-	}
-	.checkbox-input {
-		
-	}
-	.verification-block__text {
-		font-size: 13px;
-	}
-}
+
 @media(min-width:768px){
 	.know-more__title {
 		margin-bottom: 60px;

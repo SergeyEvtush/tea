@@ -1,22 +1,36 @@
  .know-more {
 	background:  #F7F2EA;
 }
-
 .know-more__wrapper {
+	background:  #F7F2EA;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
-/* .know-more__title {
-	text-align: left;
+.know-more__title {
+	margin-bottom: 30px;
 }
-
-.know-more__content {
-	display: flex;
-} */
 .content-text {
-	
-	font-size: 20px;
-	 
+text-align: center;
+font-size: 13px;
 }
 .content-text__text {
+	margin-bottom: 30px;
 }
-.content-form {
-} 
+.sending-block {
+	display:flex;
+	justify-content: space-between;
+}
+.mail-form__send{
+	margin-bottom: 12px;
+}
+.verification-block {
+	display:flex;
+	align-items: flex-start;
+}
+.verification-block__input {
+	margin-right: 10px;
+}
+
+.verification-block__text {
+	font-size: 13px;
+}
