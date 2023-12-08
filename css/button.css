@@ -8,10 +8,12 @@
 	
 }
 
-.view-btn {
-	text-align: center;
-	padding: 12px 41px;
+.btn{
 	border: 1px solid  #151618;
 	background:  #FFF;
 	cursor: pointer;
+	text-align: center;
+}
+.view-btn {
+	padding: 12px 41px;
 }

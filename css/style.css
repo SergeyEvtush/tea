@@ -36,3 +36,9 @@ body {
 	font-weight: 400;
 	line-height: normal;
 }
+.annotation-text{
+	color:  #151618;
+	font-family: Open Sans;
+	font-weight: 300;
+	line-height: 1,5;
+}
