@@ -7,10 +7,15 @@
 }
 
 .prioritise__list-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  align-items: start;
   justify-content: center;
+}
+.prioritise__list-item img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  align-self: end;
 }
 .prioritise__list-item:not(:last-child) {
   margin-bottom: 40px;
