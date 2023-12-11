@@ -1,0 +1,90 @@
+.footer {
+}
+.footer-wraper {
+  background: #f7f2ea;
+  padding: 50px 0px 84px 0px;
+}
+
+.navigation-block {
+  color: #151618;
+}
+.navigation-block__title {
+  font-family: Cormorant;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.navigation-block__list {
+}
+.navigation-block__list-item {
+}
+.link-footer-navigation {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.bloqoute-block {
+}
+.bloqoute-block__text {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.bloquote-block__author {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.contacts-block {
+  color: #151618;
+}
+.contacts-block__title {
+  text-align: center;
+  font-family: Cormorant;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.contacts-block__instruction {
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.logo-contacts {
+}
+.contacts {
+}
+.contacts-block__contacts {
+}
+.contacts__phone {
+}
+.block-contacts {
+}
+.icon-phone {
+}
+.contacts-link {
+  color: #151618;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.contacts__mail {
+}
+.socials {
+}
+.contacts-block__socials {
+}
+.socials__list {
+  display: flex;
+}
+.socials__list-item {
+}
+.icon-socials {
+}
