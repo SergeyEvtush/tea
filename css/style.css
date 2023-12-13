@@ -22,23 +22,21 @@ ul {
 body {
   position: relative;
   color: #151618;
-  font-size: 230px;
   font-weight: 300;
-  line-height: 1.5;
   /* font-family: "Cormorant", serif; */
   font-family: "Open Sans", sans-serif;
 }
-.title-block{
-	text-align: center;
-	font-family: Cormorant;
-	font-size: 40px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
+.title-block {
+  text-align: center;
+  font-family: Cormorant;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.annotation-text{
-	color:  #151618;
-	font-family: Open Sans;
-	font-weight: 300;
-	line-height: 1,5;
+.annotation-text {
+  color: #151618;
+  font-family: Open Sans;
+  font-weight: 300;
+  line-height: 1, 5;
 }
