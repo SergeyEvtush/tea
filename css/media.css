@@ -251,6 +251,7 @@
   .prioritise__item-subtitle {
     margin-bottom: 40px;
   }
+
 }
 
 @media (min-width: 768px) {
@@ -282,6 +283,22 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 30px 133px;
   }
+    .footer__grid-block {
+	display:flex;
+	flex-wrap: wrap;
+	padding:0px 54px 0px 54px;
+}
+.footer__navigation{
+	margin-right: 67px;
+}
+.bloqoute-block {
+	max-width: 270px;
+}
+.instruction-block{
+
+	max-width: 270px;
+}
+
 }
 @media (min-width: 1000px) {
   .mail-form {
