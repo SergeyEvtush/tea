@@ -1,12 +1,10 @@
-.footer {
-}
+
 .footer__wraper {
   position: relative;
   background: #f7f2ea;
   padding: 50px 0px 84px 0px;
 }
-.footer__grid-block {
-}
+
 .footer__navigation {
   margin-bottom: 50px;
 }
@@ -15,16 +13,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.navigation-block__title {
-  font-family: Cormorant;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-.navigation-block__list {
-}
-.navigation-block__list-item {
-}
+
 .link-footer-navigation {
   font-family: Open Sans;
   font-size: 16px;
@@ -33,37 +22,45 @@
 }
 
 .bloqoute-block__text {
-  font-family: Open Sans;
-  font-size: 16px;
-  font-style: italic;
-  font-weight: 300;
-  line-height: 1.5;
   margin-bottom: 10px;
 }
+.paragraf-bloquote{
+	font-family: Open Sans;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.paragraf-author{
+	font-family: Open Sans;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.5;
+}
 .bloquote-block__author {
-  font-family: Open Sans;
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 1.5;
   margin-bottom: 50px;
 }
 .instruction-block {
   color: #151618;
 }
+.title-block-footer{
+	font-family: Cormorant;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.5;
+}
 .instruction-block__title {
+	text-align: center;
   margin-bottom: 20px;
-  text-align: center;
-  font-family: Cormorant;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.5;
+}
+.paragraf-instruction{
+	font-family: Open Sans;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 1.5;
 }
 .instruction-block__instruction {
   text-align: center;
-  font-family: Open Sans;
-  font-size: 13px;
-  font-weight: 300;
-  line-height: 1.5;
   margin-bottom: 20px;
 }
 
@@ -82,8 +79,7 @@
 .contacts__logo img {
   max-width: 100%;
 }
-.contacts__list {
-}
+
 .contacts__list-item {
   display: flex;
   align-items: center;
@@ -102,18 +98,10 @@
   font-weight: 300;
   line-height: normal;
 }
-.contacts__socials {
-  /*  margin-top: 42px; */
-}
 .socials {
   display: flex;
   gap: 20px;
 }
-.socials__item {
-}
-.link-social {
-}
-
 .paiment-block {
   position: absolute;
   bottom: 0;
@@ -123,18 +111,14 @@
   justify-content: flex-start;
   gap: 53px;
 }
-.contacts-block__paiment {
-}
-.paiment-block__owner {
-}
+
 .owner {
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
 }
-.paiment-block__systems {
-}
+
 .paiment-systems-list {
   display: grid;
   gap: 20px;

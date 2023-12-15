@@ -291,9 +291,13 @@
 .footer__navigation{
 	margin-right: 67px;
 }
+
 .bloqoute-block {
 	max-width: 270px;
 }
+.bloquote-block__author {
+	max-width: 129px;
+ }
 .instruction-block{
 
 	max-width: 270px;
