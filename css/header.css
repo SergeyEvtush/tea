@@ -30,6 +30,10 @@
 .user-actions__item {
   display: block;
   height: 100%;
+ transition: rotate 0.5s linear 0.5s;
+}
+.user-actions__item:hover{
+	animation:hover-animation 0.5s linear 0.5s;
 }
 .user-actions__item:not(:last-child) {
   margin-right: 20px;

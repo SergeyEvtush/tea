@@ -1,0 +1,47 @@
+.title-block-footer{
+	font-family: Cormorant;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.link-footer-navigation {
+	font-family: Open Sans;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+	white-space: nowrap;
+ }
+.paragraf-instruction{
+	font-family: Open Sans;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.paragraf-bloquote{
+	font-family: Open Sans;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.paragraf-author{
+	font-family: Open Sans;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.link-contact {
+	display: block;
+	color: #151618;
+	font-family: Open Sans;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+ }
+ .owner {
+	font-family: Open Sans;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+ }

@@ -251,7 +251,6 @@
   .prioritise__item-subtitle {
     margin-bottom: 40px;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -283,26 +282,40 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 30px 133px;
   }
-    .footer__grid-block {
-	display:flex;
-	flex-wrap: wrap;
-	padding:0px 54px 0px 54px;
-}
-.footer__navigation{
-	margin-right: 67px;
-}
 
-.bloqoute-block {
-	max-width: 270px;
-}
-.bloquote-block__author {
-	max-width: 129px;
- }
-.instruction-block{
+  .navigation-block {
+    grid-area: A;
+  }
 
-	max-width: 270px;
-}
-
+  .bloqoute-block {
+    grid-area: B;
+  }
+  .instruction-block {
+    grid-area: C;
+  }
+  .contacts {
+    grid-area: D;
+  }
+  .footer__grid-block {
+    display: grid;
+    grid-template-areas:
+      "A B"
+      "A C"
+      "A D";
+    padding: 0px 54px 0px 54px;
+  }
+  .navigation-block__title {
+    margin-bottom: 50px;
+  }
+  .footer__navigation {
+    margin-right: 67px;
+  }
+  .bloquote-block__author {
+    max-width: 129px;
+  }
+  .instruction-block__title {
+    margin-bottom: 50px;
+  }
 }
 @media (min-width: 1000px) {
   .mail-form {
@@ -311,6 +324,37 @@
   }
   .verification-block__text {
     margin: 0 auto;
+  }
+  .footer__grid-block {
+    display: grid;
+    grid-template-areas:
+      "A B C"
+      "A B D";
+    grid-template-rows: auto 1fr;
+    padding: 0px 10px 0px 10px;
+    column-gap: 53px;
+  }
+  .instruction-block {
+    justify-items: start;
+  }
+  .instruction-block__title,
+  .instruction-block__instruction {
+    text-align: left;
+  }
+  .instruction-block__instruction {
+    margin-bottom: 20px;
+    max-width: 270px;
+  }
+  .contacts {
+    align-items: start;
+    justify-items: start;
+    justify-content: flex-start;
+    gap: 0px 30px;
+  }
+  .contacts__socials {
+    align-self: flex-start;
+    margin-left: 100px;
+    margin-top: -30px;
   }
 }
 @media (min-width: 1100px) {
@@ -334,5 +378,17 @@
   .prioritise__list {
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
+  }
+  .footer__grid-block {
+    column-gap: 41px;
+  }
+  .bloqoute-block {
+    max-width: 270px;
+    margin-top: -60px;
+    align-self: center;
+  }
+  .navigation-block {
+    margin-right: 114px;
+    column-gap: 213px;
   }
 }
