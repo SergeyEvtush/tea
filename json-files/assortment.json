@@ -1,0 +1,22 @@
+[
+	{
+		"name":"Black",
+		"src":"images/black.jpg"
+	},
+	{
+		"name":"Green",
+		"src":"images/green.jpg"
+	},
+	{
+		"name":"White",
+		"src":"images/white.jpg"
+	},
+	{
+		"name":"Oolong",
+		"src":"images/oolong.jpg"
+	},
+	{
+		"name":"Pu-erh",
+		"src":"images/pu-erh.jpg"
+	}
+]
