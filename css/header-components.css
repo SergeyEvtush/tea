@@ -1,0 +1,9 @@
+.link-menu {
+  font-weight: 400;
+  font-size: 18px;
+  display: block;
+}
+.link-menu:hover {
+  transform: scale(1.2);
+  transition: all 0.1s linear 0.1s;
+}
