@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Black",
+    "way": "images/black.jpg"
+  },
+  {
+    "name": "Green",
+    "way": "images/green.jpg"
+  },
+  {
+    "name": "White",
+    "way": "images/white.jpg"
+  },
+  {
+    "name": "Oolong",
+    "way": "images/oolong.jpg"
+  },
+  {
+    "name": "Pu-erh",
+    "way": "images/pu-erh.jpg"
+  }
+]
